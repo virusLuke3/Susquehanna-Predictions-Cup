@@ -1,0 +1,21 @@
+{
+  "strategy_id": "mm_sig",
+  "strategy_version": "1.1",
+  "data_mode": "REAL_ONLY",
+  "quote_quantity": "10",
+  "max_inventory": "20",
+  "max_new_exposure": "30",
+  "max_event_cost": "10",
+  "max_events": 3,
+  "target_net_spread": "0.02",
+  "exit_buffer": "0.005",
+  "inventory_skew_ticks": 1,
+  "book_ttl_seconds": 5,
+  "account_refresh_seconds": 30,
+  "catalog_refresh_seconds": 600,
+  "activity_refresh_seconds": 60,
+  "resting_order_seconds": 60,
+  "fee_file": "runtime/live/strategies/mm_sig_v1/fee.empirical.local.json",
+  "approval_file": null,
+  "application_config": null
+}

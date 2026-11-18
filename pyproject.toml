@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools==80.9.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sigbot"
+version = "0.1.0"
+description = "Offline-first, recoverable SIG Predictions Cup infrastructure"
+requires-python = ">=3.10"
+dependencies = ["SQLAlchemy==2.0.46", "psycopg[binary]==3.3.3", "httpx==0.28.1", "pydantic==2.12.5", "pyarrow==23.0.1", "jsonschema==4.25.1"]
+
+[project.optional-dependencies]
+realtime = ["realtime==2.32.0", "websockets==15.0.1", "python-socks[asyncio]==3.1.1"]
+proxy = ["PyYAML==6.0.3"]
+
+[project.scripts]
+sigbot = "sigbot.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.ruff]
+target-version = "py310"
+line-length = 100
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B"]
+ignore = ["E501"]

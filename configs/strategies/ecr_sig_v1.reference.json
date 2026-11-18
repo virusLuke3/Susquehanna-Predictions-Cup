@@ -1,0 +1,22 @@
+{
+  "initial_capital": "100000",
+  "strategy_cash": "25000",
+  "order_seconds": 120,
+  "economic_revision": "joint_v2",
+  "model_file": "runtime/live/ecr-joint-25000-20261021-recording/MODEL.json",
+  "model_hash": "24c8e77a7397dc443f3eec0fae9c3a4497e0fc94296e14a958ad8f83276c71f2",
+  "model_min_clusters": 20,
+  "holding_seconds": 21600,
+  "stop_quantile": 90,
+  "signal_risk": "5",
+  "total_planned_risk": "250",
+  "daily_loss": "125",
+  "child_cash": "250",
+  "market_cash": "250",
+  "state_cash": "1250",
+  "direction_cash": "7500",
+  "exit_buffer": "0.005",
+  "depth_fraction": "0.10",
+  "minimum_expected_edge": "0.005",
+  "holding_cost_per_hour": "0.0005"
+}

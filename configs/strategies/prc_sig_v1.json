@@ -1,0 +1,25 @@
+{
+  "strategy_id": "prc_sig",
+  "strategy_version": "1.0",
+  "mode": "OFFLINE",
+  "execution_venue": "SIG",
+  "live_authorization": null,
+  "initial_capital": "100000",
+  "parameters": {
+    "single_fraction": "0.005",
+    "total_fraction": "0.015",
+    "stop_fraction": "0.0005",
+    "daily_fraction": "0.02",
+    "cash_floor": "0.97",
+    "max_events": 3,
+    "max_per_state": 1,
+    "max_per_report": 1,
+    "max_per_sample": 1,
+    "cooldown_seconds": 86400,
+    "holding_seconds": 21600,
+    "terminal_buffer_days": 7,
+    "peak_loss": "0.03",
+    "daily_loss": "0.01",
+    "plan_seconds": 5
+  }
+}

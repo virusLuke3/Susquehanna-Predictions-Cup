@@ -1,0 +1,20 @@
+{
+  "strategy_id": "mm_sig",
+  "strategy_version": "1.0",
+  "mode": "OFFLINE",
+  "initial_capital": "1000",
+  "quote_quantity": "10",
+  "max_inventory": "20",
+  "max_order_cost": "10",
+  "max_event_cost": "10",
+  "max_total_cost": "30",
+  "max_events": 3,
+  "min_net_spread": "0.02",
+  "exit_cost_buffer": "0.005",
+  "improvement_ticks": 0,
+  "inventory_skew_ticks": 1,
+  "quote_seconds": 5,
+  "book_seconds": 5,
+  "max_inventory_seconds": 1800,
+  "min_recent_trades": 1
+}
